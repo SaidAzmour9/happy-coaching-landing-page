@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    text-decoration: none;
+}
+header{ 
+    background-color: #FAF8F6;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.navbar{
+    margin: 10px 0;
+    display: flex   ;
+}
+.navbar .logo{
+    width: 40%;
+}
+.navbar nav{
+    width: 60%;
+}
+.navbar nav ul{
+    text-align: end;
+    list-style: none;
+}
+.navbar nav ul li{
+    margin: 2px 20px;
+    display: inline;
+}
+.navbar nav ul a{
+    color: #000;
+}
+.navbar nav ul button{
+    background-color: #20AD96;
+    color: #FFF;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+}
+.hero{
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+}
+.hero_content{
+    width: 40%;
+    font-size: 16px;
+}
+.hero_content h1{
+    color: #333461;
+}
+.hero_content p{
+    margin: 20px 0;
+    font-weight: 200;
+    color: #4A556C;
+}
+.hero_img{
+    width: 50%;
+    background-color: #FAF8F6;
+}
+.hero_img img{
+    width: 60%;
+    margin-left: 150px;
+}
+
+form input {
+    width: 299px;
+    height: 40px;
+    padding: 3px 5px;
+    margin: 5px 0;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+}
+form input.btn{
+    background-color: #20AD96;
+    color: #FFF;
+}
+
+.testim{
+    margin: 80px 0; 
+}
+.all_testim{
+    display: flex;
+    justify-content: space-between;
+}
+.testim_info span{
+    font-weight: 200;
+    color: #4A556C;
+}
+.testim_info h2{
+    color: #333461;
+    margin-top: 20px;
+}
+.testim_btn{
+  align-items: end;
+}
+
+.testim_btn button{
+    width: 150px;
+    height: 30px;
+    padding: 3px 5px;
+    margin: 5px 0;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    background-color: #20AD96;
+    color: #FFF;  
+}
+
+.all_info{
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+}
+.all_info .info_one{
+    width: 50%;
+    padding: 20px;
+}
+.all_info .info_two{
+    width: 50%;
+}
+.info_one span{
+    font-weight: 200;
+    color: #4A556C;
+}
+.info_one h3{
+    color: #333461;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    padding: 0 130px 0 0;
+}
+
+.info_one1{
+    display: flex;
+    margin-bottom: 10px;
+}
+.info_one1 img{
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.info_one1 h4{
+    margin: 0 0 10px 0;
+}
+.info_ele{
+    margin: auto;
+    width: 730px;
+    height: 312px;
+    top: 94px;
+    left: 355px;
+    gap: 40px;
+   text-align:center;
+}
+.info_ele h2{
+    font-family: Kumbh Sans;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 56px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color:#333461;
+}
+.info_ele span{
+    color: #20AD96
+  }
+  .info_ele p{
+    margin: 15px 0;
+    font-weight: 300;
+  }
+
+  .info_ele button{
+    width:250px;
+    height:44px;
+    border-radius: 8px;
+    padding:10px, 18px, 10px, 18px; 
+    background-color:#20ad96;
+    border:1px;
+    color:white;
+  } 
+
+
+.all_testimy {
+
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all_testimy .testimy_btn{
+    padding-left: 20px;
+}
+.all_testimy .testimy_btn input{
+    width: 250px;
+}
+.all_testimy .testiim_info h2{
+    margin: 10px;
+    color: #333461;
+}
+
+.all_testimy .testimy_btn button{
+    width:200px;
+    height:44px;
+    border-radius: 8px;
+    margin-left: 10px;
+    padding:10px, 18px, 10px, 18px; 
+    background-color:#20ad96;
+    border:1px;
+    color:white;
+}
+
+.footerinfo{
+    display: flex;
+    justify-content: space-between;
+}
+.footerinfo .info{
+    width: 30%;
+}
+.footerinfo .info p{
+    margin-top: 20px;
+}
+footer{
+    margin: 50px 0;
+}
+.footerinfo ul{
+    list-style: none;
+}
+
+.footerinfo ul li{
+    margin-bottom: 10px;
+    color: #4A556C;
+    font-weight: 200;
+
+}
